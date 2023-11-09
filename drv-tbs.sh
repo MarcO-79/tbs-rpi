@@ -18,10 +18,26 @@ fi
     apt-get -y upgrade
     apt-get dist-upgrade
     apt-get -y install \
+        gcc \
         build-essential \
         patchutils \
+        make \
+        cmake \
+        git \
         libproc-processtable-perl \
-        linux-headers-$(uname -r) \
+        libdigest-sha-perl \
+        build-essential \
+        subversion \
+        mercurial \
+        openssl \
+        gettext \
+        libssl-dev \
+        screen \
+        libv4l-dev \
+        # x86_64
+        #linux-headers-$(uname -r) \
+        # Raspberry Pi
+        linux-headers \ 
         git
 systemctl disable apt-daily.service
 systemctl disable apt-daily.timer
