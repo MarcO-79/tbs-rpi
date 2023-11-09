@@ -18,6 +18,8 @@ fi
     apt-get -y upgrade
     apt-get dist-upgrade
     apt-get -y install \
+        curl \
+        wget \
         gcc \
         build-essential \
         patchutils \
