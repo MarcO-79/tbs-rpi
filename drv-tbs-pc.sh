@@ -36,7 +36,6 @@ fi
         libssl-dev \
         libv4l-dev \
         linux-headers-$(uname -r) \
-        raspberrypi-kernel-headers \
         screen
 systemctl disable apt-daily.service
 systemctl disable apt-daily.timer
