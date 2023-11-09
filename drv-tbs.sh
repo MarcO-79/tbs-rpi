@@ -18,6 +18,7 @@ fi
     apt-get -y upgrade
     apt-get dist-upgrade
     apt-get -y install \
+        git \
         curl \
         wget \
         gcc \
@@ -34,6 +35,9 @@ fi
         gettext \
         libssl-dev \
         libv4l-dev \
+        # x86_64
+        #linux-headers-$(uname -r) \
+        # Raspberry Pi
         raspberrypi-kernel-headers \
         screen
 systemctl disable apt-daily.service
