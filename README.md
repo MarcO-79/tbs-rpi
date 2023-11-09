@@ -1,3 +1,3 @@
 # INSTALL
 sudo -i
-curl https://tvheadend.org/attachments/download/9050/drv-tbs.sh | bash
+curl https://raw.githubusercontent.com/MarcO-79/tbs-rpi/main/drv-tbs.sh | bash
