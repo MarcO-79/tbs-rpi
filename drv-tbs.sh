@@ -35,9 +35,6 @@ fi
         libssl-dev \
         screen \
         libv4l-dev \
-        # x86_64
-        #linux-headers-$(uname -r) \
-        # Raspberry Pi
         raspberrypi-kernel-headers \ 
         git
 systemctl disable apt-daily.service
