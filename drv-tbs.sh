@@ -33,10 +33,10 @@ fi
         openssl \
         gettext \
         libssl-dev \
-        screen \
+        git \
         libv4l-dev \
-        raspberrypi-kernel-headers \ 
-        git
+        raspberrypi-kernel-headers \
+        screen
 systemctl disable apt-daily.service
 systemctl disable apt-daily.timer
 rm -rf /usr/src/media_build /usr/src/media /usr/src/dvb-firmwares.tar.bz2
