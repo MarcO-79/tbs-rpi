@@ -33,8 +33,10 @@ fi
         openssl \
         gettext \
         libssl-dev \
-        git \
         libv4l-dev \
+        # x86_64
+        #linux-headers-$(uname -r) \
+        # Raspberry Pi
         raspberrypi-kernel-headers \
         screen
 systemctl disable apt-daily.service
