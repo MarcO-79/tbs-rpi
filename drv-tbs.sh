@@ -25,7 +25,6 @@ fi
         patchutils \
         make \
         cmake \
-        git \
         libproc-processtable-perl \
         libdigest-sha-perl \
         build-essential \
@@ -39,7 +38,7 @@ fi
         # x86_64
         #linux-headers-$(uname -r) \
         # Raspberry Pi
-        linux-headers \ 
+        raspberrypi-kernel-headers \ 
         git
 systemctl disable apt-daily.service
 systemctl disable apt-daily.timer
